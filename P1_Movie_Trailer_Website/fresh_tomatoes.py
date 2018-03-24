@@ -7,8 +7,9 @@ def retrieve_template(template):
     """
     Retrieve HTML content from separate directory
     """
-    return ''.join([line for line in open('templates/{}.html'.format(template),
-                                        'r').readlines()])
+    return ''.join([line for line in open('templates/{}.html'.format(
+        template), 'r').readlines()]
+        )
 
 
 # Styles and scripting for the page
