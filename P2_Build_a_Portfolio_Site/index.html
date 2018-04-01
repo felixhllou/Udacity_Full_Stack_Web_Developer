@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Metadata for SEO -->
+    <meta name="description" content="Felix H.L. Lou - Machine Learning Engineer">
+    <meta name="keywords"
+          content="felixlou, portfolio, full-stack, machine learning, business intelligence, web development, analytics">
+    <meta name="author" content="Felix H.L. Lou">
+
+    <title>Felix H.L. Lou Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="img/felix.jpg" sizes="16x16 32x32 48x48" type="image/png">
+    <link rel="icon" href="img/felix.jpg" sizes="128x128" type="image/png">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!-- 3.7 Bootstrap core and customized style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Add fontawesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="container">
+    <header>
+        <div class="row">
+            <!-- title logo -->
+            <div class="col-md-6 col-sm-4 col-xs-4">
+                <img class="title-logo" src="img/felix.jpg" alt="">
+            </div>
+            <!-- official profile picture -->
+            <div class="title-super col-md-6 col-sm-8 col-xs-8 text-right text-uppercase">
+                <h1>Felix H.L. Lou</h1>
+                <h4>Machine Learning Engineer</h4>
+                <button type="button" class="btn btn-default pull-right button-style" data-toggle="modal"
+                        data-target="#about_me">About Me
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <div class="row">
+        <div class="col-md-12">
+            <img class="img-responsive" src="img/hk.png" alt="hkmk">
+        </div>
+    </div>
+
+    <section class="row">
+        <header class="col-md-12 section">
+            <h2 class="projects-title">Featured Work</h2>
+        </header>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-rounded img-thumbnail cursor-hover" data-toggle="modal"
+                 data-target="#finding_donors"
+                 src="img/charity_donor.png" alt="supervised_learning_project">
+            <h3 class="title">Finding Donors for Charity</h3>
+        </article>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-rounded img-thumbnail cursor-hover"
+                 src="img/customer_segment.png" alt="unsupervised_learning_project" data-toggle="modal" data-target="#customer_segments">
+            <h3 class="title">Creating Customer Segments</h3>
+        </article>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-rounded img-thumbnail cursor-hover"
+                 src="img/dog.png" alt="cnn_project" data-toggle="modal" data-target="#dog_breed_classifer">
+            <h3 class="title">Dog Breed Classifier</h3>
+        </article>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-rounded img-thumbnail cursor-hover"
+                 src="img/european_soccer.png" alt="statistical_modelling" data-toggle="modal" data-target="#european_soccer">
+            <h3 class="title">Investigating the European Soccer Database</h3>
+        </article>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-rounded img-thumbnail cursor-hover"
+                 src="img/tv_scripts.png" alt="rnn_project" data-toggle="modal" data-target="#tv_scripts">
+            <h3 class="title">Generating TV Scripts</h3>
+        </article>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-rounded img-thumbnail cursor-hover"
+                 src="img/face_generation.png" alt="gan_project" data-toggle="modal" data-target="#face_generation">
+            <h3 class="title">Face Generation</h3>
+        </article>
+    </section>
+
+    <!--footer-->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/felixhllou/" class="fa fa-linkedin fa-lg" aria-hidden="true" target="_blank"></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/felixhllou" class="fa fa-twitter fa-lg" aria-hidden="true" target="_blank"></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/felixhllou" class="fa fa-github fa-lg" aria-hidden="true" target="_blank"></a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Felix H.L. Lou 2018</p>
+      </div>
+    </footer>
+</div>
+
+<!-- Modal pop out -->
+<div class="modal fade" id="about_me" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal About me -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Felix H.L. Lou</h3>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive img-rounded img-thumbnail" src="img/profile_pic.png"
+                     alt="profile_picture">
+                <article>
+                    <h4 class="large text-center">
+                    I am a Machine Learning and Business Analytics enthusiast. I am an active self-learner who is fascinated with technology-powered products. I’d love to combine my passion for technology-powered products with my professional skills to continue delivering great products to people.
+                    </h4>
+                </article>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="finding_donors" role="dialog">
+    <div class="modal-dialog">
+        <!-- Finding Donors for Charity -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Finding Donors for Charity</h3>
+            </div>
+            <div class="modal-body">
+                <img class="portfolio-img img-responsive" src="img/charity_donor.png" alt="supervised_learning_project">
+                <hr>
+                <p>Understanding an individual's income can help a non-profit better understand how large of a donation to request, or whether or not they should reach out to begin with.</p>
+                <p>This project leverages supervised algorithms with Gradient Boosting to predict donors for charity.</p>
+                <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                <a href="https://github.com/felixhllou/Udacity_Machine_Learning/blob/master/P2_Finding_Donors_for_CharityML/finding_donors.ipynb" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="customer_segments" role="dialog">
+    <div class="modal-dialog">
+        <!-- Creating Customer Segments -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Creating Customer Segments</h3>
+            </div>
+            <div class="modal-body">
+                <img class="portfolio-img img-responsive" src="img/customer_segment.png" alt="unsupervised_learning_project">
+                <hr>
+                <p>To see if any similarities exist between customers, and how to best segment customers into distinct categories to help business make better, more informed decisions in the future.</p>
+                <p>This project leverages unsupervised algorithms with Principal Component Analysis to achieve customer segmentation.</p>
+                <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                <a href="https://github.com/felixhllou/Udacity_Machine_Learning/blob/master/P4_Creating_Customer_Segments/customer_segments.ipynb" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="dog_breed_classifer" role="dialog">
+    <div class="modal-dialog">
+        <!-- Dog Breed Classifier -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Dog Breed Classifier</h3>
+            </div>
+            <div class="modal-body">
+                <img class="portfolio-img img-responsive" src="img/dog.png" alt="cnn_project">
+                <hr>
+                <p>Developing an algorithm for detecting human faces and dog breed that could be used as part of a mobile or web app.</p>
+                <p>This project leverages Convolutional Neural Network to power the prediction.</p>
+                <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                <a href="https://github.com/felixhllou/Udacity_Machine_Learning/blob/master/P3_Dog_Breed_Classifier/dog_app.ipynb" target="_blank">View on GitHub</a></p>   
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="european_soccer" role="dialog">
+    <div class="modal-dialog">
+        <!-- Investigating European Soccer Players -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Investigating European Soccer Players</h3>
+            </div>
+            <div class="modal-body">
+                <img class="portfolio-img img-responsive" src="img/european_soccer.png" alt="statistical_modelling">
+                <hr>
+                <p>1. Do players use left foot have greater free kick accuracy? Or do they actually have the same accuracy?</p>
+                <p>2. Are there any relationships between height and heading accuracy?</p>
+                <p>3. Are there any relationships between players' age and overall rating?</p>
+                <p>This project leverages statistical hypothesis testing on soccer players' performance and associated attributes.</p>
+                <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                <a href="https://github.com/felixhllou/Udacity_Data_Science/blob/master/Data_Analyst_Nanodegree_Term1/P3_Investigate_Dataset/Investigate_a_Dataset.ipynb" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="tv_scripts" role="dialog">
+    <div class="modal-dialog">
+        <!-- Generating TV Scripts -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Generating TV Scripts</h3>
+            </div>
+            <div class="modal-body">
+                <img class="portfolio-img img-responsive" src="img/tv_scripts.png" alt="rnn_project">
+                <hr>
+                <p>A Neural Network built to generate a new TV script for a scene at Moe's Tavern.</p>
+                <p>This project leverages Recurrent Neural Network to generate our own Simpsons TV scripts.</p>
+                <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                <a href="https://github.com/felixhllou/Udacity_Deep_Learning/blob/master/P3_Generate_TV_Scripts/dlnd_tv_script_generation.ipynb" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="face_generation" role="dialog">
+    <div class="modal-dialog">
+        <!-- Face Generation -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Face Generation</h3>
+            </div>
+            <div class="modal-body">
+                <img class="portfolio-img img-responsive" src="img/face_generation.png" alt="gan_project">
+                <hr>
+                <p>A Neural Network built to generate a new images of faces.</p>
+                <p>This project leverages Generative Adversarial Network to generate new images of faces of celebrities.</p>
+                <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                <a href="https://github.com/felixhllou/Udacity_Deep_Learning/blob/master/P4_Face_Generation/dlnd_face_generation.ipynb" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <!-- JavaScipt -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
